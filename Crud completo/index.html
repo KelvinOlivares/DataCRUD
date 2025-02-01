@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabela de Dados CRUD Aprimorada</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tabela de Dados CRUD Aprimorada</h1>
+    <div class="controls">
+      <button id="addBtn" class="btn add-btn"><i class="fas fa-plus"></i> Adicionar Novo</button>
+      <input type="text" id="searchInput" placeholder="Pesquisar...">
+    </div>
+    <table id="dataTable">
+      <thead>
+        <tr>
+          <th>ID <span class="sort-icon" data-sort="id"><i class="fas fa-sort"></i></span></th>
+          <th>Nome <span class="sort-icon" data-sort="nome"><i class="fas fa-sort"></i></span></th>
+          <th>E-mail <span class="sort-icon" data-sort="email"><i class="fas fa-sort"></i></span></th>
+          <th>Ações</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+    <div id="pagination"></div>
+  </div>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <form id="dataForm">
+        <input type="hidden" id="id">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+        <button type="submit" class="btn save-btn">Salvar</button>
+      </form>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
