@@ -1,6 +1,6 @@
 # DataCRUD 
 
-DataCRUD é uma aplicação web simples e eficiente para gerenciamento de dados em português. Desenvolvida com HTML, CSS e JavaScript puro, esta ferramenta oferece uma interface intuitiva para operações CRUD (Criar, Ler, Atualizar, Deletar) em uma tabela de dados.
+DataCRUD é uma aplicação web simples e eficiente para gerenciamento de dados. Desenvolvida com HTML, CSS e JavaScript puro, esta ferramenta oferece uma interface intuitiva para operações CRUD (Criar, Ler, Atualizar, Deletar) em uma tabela de dados. (frontend)
 
 ## Resumo da Aplicação
 
@@ -39,7 +39,6 @@ O projeto não utiliza frameworks ou bibliotecas externas, demonstrando a capaci
 
 ## Características
 
-- Interface totalmente em português
 - Operações CRUD completas
 - Pesquisa em tempo real
 - Ordenação por colunas
@@ -53,11 +52,6 @@ O projeto não utiliza frameworks ou bibliotecas externas, demonstrando a capaci
 - `styles.css`: Estilos CSS para a interface
 - `script.js`: Lógica JavaScript para as operações CRUD e interatividade
 
-## Contribuindo
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
-
-
-![print2](https://github.com/user-attachments/assets/49a24ba6-92f4-4a0b-a9de-f50a18267912)
 ![print1](https://github.com/user-attachments/assets/038ee85d-fb11-4e87-8185-8a84356eba1b)
-
+![print2](https://github.com/user-attachments/assets/49a24ba6-92f4-4a0b-a9de-f50a18267912)
